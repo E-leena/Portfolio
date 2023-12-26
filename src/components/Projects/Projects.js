@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import skeddual from "../../Assets/Projects/skeddual.PNG";
+import travel from "../../Assets/Projects/travel.PNG";
+import cologixs from "../../Assets/Projects/cologixs.PNG";
+import uniconnect from "../../Assets/Projects/uniconnect.PNG";
+import appsvilla from "../../Assets/Projects/appsvilla.PNG";
+import scaneMe from "../../Assets/Projects/scanme.PNG";
 
 function Projects() {
   return (
@@ -23,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={uniconnect}
               isBlog={false}
               title="Uniconnect"
               description=""
@@ -34,7 +34,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={scaneMe}
               isBlog={false}
               title="Scane Me"
               description=""
@@ -45,7 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={cologixs}
               isBlog={false}
               title="Cologixs Website"
               description=""
@@ -56,7 +56,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={skeddual}
               isBlog={false}
               title="Skeddual Site"
               description=""
@@ -67,9 +67,9 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={appsvilla}
               isBlog={false}
-              title="Restaurant Website"
+              title="AppsVilla Website"
               description=""
               ghLink="https://github.com/"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
@@ -78,9 +78,9 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={travel}
               isBlog={false}
-              title="Ecomerce Website"
+              title="Travel Website"
               description=""
               ghLink="https://github.com/"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 

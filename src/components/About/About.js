@@ -21,14 +21,14 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px",fontWeight:"bolder" ,marginRight:"65%"}}>
+            <h1 className="about-text"style={{ fontSize: "2.4em", paddingBottom: "20px",fontWeight:"bolder" ,marginRight:"60%"}}>
               Know Who <strong className="purple">I'M</strong>
             </h1>
             <Aboutcard />
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "100px", paddingBottom: "60px" }}
+            style={{ paddingTop: "100px", paddingBottom: "100px" }}
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" width="100%"  />
